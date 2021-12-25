@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background: #efefef;
+  position: relative;
+}
+
+#quotes {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+.quote-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #0077af;
+  transform: translate(-50%, 50%);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  width: 450px;
+  height: 250px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 8px;
+}
+.quote-box h1 {
+  margin-bottom: 30px;
+  color: #fff;
+}
+.quote-box button {
+  margin-top: 30px;
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #57bb8a;
+  border: 1px solid #57bb8a;
+  border-radius: 4px;
+  color: #fff;
+}
